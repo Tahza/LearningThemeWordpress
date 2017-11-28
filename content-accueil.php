@@ -1,6 +1,7 @@
 <section>
 
-    
+    <!-- Actualités de la page d'Accueil -->
+
     <?php
         the_content();
         $args = array(
