@@ -1,11 +1,10 @@
 /*
 Theme Name: Campus Saint-Marc
-Author: Luka Quelquejeu
-Author URI: 
+Author: Hugo LIEGEARD
+Author URI: https://biyn.media
 Description: Thème du Campus Saint-Marc
 Version: 1.0
 */
-
 body {
     background: #151515;
 }
@@ -232,6 +231,10 @@ article p span {
     /* filter: grayscale(100%); */
 }
 
+.wpls-logo-showcase .wpls-logo-cnt.slick-slide img {
+    height: 80px;
+}
+
 /* ----------------------------
 |        PIED DE PAGE         |
 ------------------------------*/
@@ -242,6 +245,10 @@ footer {
     float: left;
     background: #4a4747;
     padding-bottom: 40px;
+}
+
+footer h3 {
+    display: none !important;
 }
 
 /* --
@@ -329,12 +336,4 @@ footer {
     }
     .contact address a:hover {
         text-decoration: underline;
-    }
-
-    .wpforms-field-label {
-        text-align: left;
-    }
- 
-    #wpforms-form-121{
-        padding: 0 20px;
     }
